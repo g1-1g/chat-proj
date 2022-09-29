@@ -4,7 +4,7 @@ const socket = io();
 
 const nameButton = document.querySelector(".nameBox");
 const Newname = document.querySelector("#NEWnickname")
-const savename = "¿Õ∏Ì";
+const savename = "ÏùµÎ™Ö";
 
 function save(){
     savename = Newname.value;
