@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon\favicon.ico">
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="user-container">
+            <img src="L.png" id = "logo" alt="My Image">
+            <b class="appname">CHAT</b>
+            <label for ="nickname">이름</label>
+            <input type="text" id="nickname">
+            <!--<button class="hi">입장</button>
+            //<button class="bye">퇴장</button>-->
+            <label for ="nickname">날짜</label>
+            <input type="text" class="startday">
+            <button class="dayB">날짜등록</button>
+        </div>
+        <div class="display-container">
+            <ul class="chatting-list"></ul>
+            <li class="HiM">
+
+            </li>
+            <li class="sent">
+                
+            </li>
+            <li class="receive">
+                
+            </li>
+            <li class="ByeM">
+                
+            </li>
+        </div>
+        <div class="input-container">
+            <span>
+                <input type="text" class="chatting-input">
+                <!--<button class="send-button">전송</button>-->
+            </span>
+
+        </div>
+    </div>
+   <script src = "/socket.io/socket.io.js"></script>
+    <script src="js/chat.js"></script>
+</body>
+</html>
